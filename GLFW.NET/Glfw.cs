@@ -21,7 +21,7 @@ namespace GLFW
         ///     The native library name,
         ///     <para>For Unix users using an installed version of GLFW, this needs refactored to <c>glfw</c>.</para>
         /// </summary>
-        public const string LIBRARY = "glfw";
+        public const string LIBRARY = "glfw3.dll";
 
         private static readonly ErrorCallback errorCallback = GlfwError;
 
